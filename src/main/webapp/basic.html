@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+<ul>
+    <li>Hello Servlet
+        <ul>
+            <li><a href="/hello?username=servlet">hello servlet request</a></li>
+        </ul>
+    </li>
+    <li>HttpServletRequest
+        <ul>
+            <li>basic usage, retrieving HTTP Headers</li>
+            <li>retrieving HTTP Request MessageBody
+                <ul>
+                    <li><a href="/request-param?username=hello&age=20">GET - query parameters</a></li>
+                    <li><a href="/basic/hello-form.html">POST - HTML Form</a></li>
+                    <li>Test for HTTP API - MessageBody -> Postman</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>HttpServletResponse
+        <ul>
+            <li><a href="/response-header">basic usage, retrieving HTTP Headers</a></li>
+            <li>retrieving HTTP Response Message Body
+                <ul>
+                    <li><a href="/response-html">HTML Response</a></li>
+                    <li><a href="/response-json">HTTP API JSON Response</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+</body>
+</html>
