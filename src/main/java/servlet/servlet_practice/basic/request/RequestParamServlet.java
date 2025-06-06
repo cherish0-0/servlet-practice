@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.Enumeration;
 
 /**
- * Servlet for handling HTTP request parameters (query parameters).
+ * Servlet for handling HTTP request parameters
  */
 @WebServlet(name = "requestParamServlet", urlPatterns = "/request-param")
 public class RequestParamServlet extends HttpServlet {
