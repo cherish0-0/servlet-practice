@@ -9,6 +9,11 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
+/**
+ * Servlet implementing MVC pattern for member registration form
+ * This servlet acts as a controller that forwards the request to the view (JSP)
+ * URL pattern: /servlet-mvc/members/new-form
+ */
 @WebServlet(name = "mvcMemberFormServlet", urlPatterns = "/servlet-mvc/members/new-form")
 public class MvcMemberFormServlet extends HttpServlet {
 
