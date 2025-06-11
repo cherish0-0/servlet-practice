@@ -1,10 +1,11 @@
-package servlet.servlet_practice.web.frontcontroller.v5;
+package servlet.servlet_practice.web.frontcontroller.v5.adapter;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import servlet.servlet_practice.web.frontcontroller.ModelView;
 import servlet.servlet_practice.web.frontcontroller.v3.ControllerV3;
+import servlet.servlet_practice.web.frontcontroller.v5.MyHandlerAdapter;
 
 import java.io.IOException;
 import java.util.HashMap;
