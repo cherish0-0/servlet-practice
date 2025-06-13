@@ -60,3 +60,14 @@ public class SpringMemberControllerV3 {
         return "save-result";
     }
 }
+
+/*
+ * Note: RequestMappingHandlerMapping, RequestMappingHandlerAdapter, and ViewResolver are automatically configured in Spring MVC framework.
+ * Client request reaches DispatcherServlet
+ * RequestMappingHandlerMapping retrieves the appropriate RequestMappingHandlerAdapter
+ * based on the @Controller annotation.
+ * RequestMappingHandlerAdapter maps the request to the appropriate controller method
+ * based on the URL and HTTP method in @GetMapping, @PostMapping, etc.
+ * Logical view name is returned to the physical view through ViewResolver.
+ * The view is rendered, and the response is sent back to the client.
+ */
